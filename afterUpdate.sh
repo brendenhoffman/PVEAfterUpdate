@@ -4,6 +4,6 @@ if [ -f PAUmain.sh]; then
   rm PAUmain.sh
 fi
 
-wget https://github.com/brendenhoffman/PVEAfterUpdate/blob/main/PAUmain.sh
+wget https://raw.githubusercontent.com/brendenhoffman/PVEAfterUpdate/master/afterUpdate.sh
 
 source PAUmain.sh
