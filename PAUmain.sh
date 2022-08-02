@@ -6,6 +6,7 @@ if [ -f PVEDiscordDark.sh ]; then
 fi
 
 wget https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh
+chmod 755 PVEDiscordDark.sh
 ./PVEDiscordDark.sh install
 
 echo "Removing \"No Subscription\" pop-up"
