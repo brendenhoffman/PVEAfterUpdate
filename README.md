@@ -4,7 +4,7 @@ Installs PVEDiscordDark and removes the no subscription pop-up all in one script
 To install simply:
 ```
 wget https://raw.githubusercontent.com/brendenhoffman/PVEAfterUpdate/master/afterUpdate.sh
-./afterUpdate.sh
+bash afterUpdate.sh
 ```
 
 See PVEDiscordDark here: https://github.com/Weilbyte/PVEDiscordDark
