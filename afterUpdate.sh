@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [ -f PAUmain.sh]; then
+  echo "removing PAUmain.sh"
   rm PAUmain.sh
 fi
 
