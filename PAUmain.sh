@@ -6,8 +6,7 @@ if [ -f PVEDiscordDark.sh ]; then
 fi
 
 wget https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh
-chmod 755 PVEDiscordDark.sh
-./PVEDiscordDark.sh install
+bash PVEDiscordDark.sh install
 
 echo "Removing \"No Subscription\" pop-up"
 sed -i.backup -z "s/res === null || res === undefined || \!res || res\n\t\t\t.data.status.toLowerCase() \!== 'active'/false/g" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js
