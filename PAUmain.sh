@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [ -f PVEDiscordDark.sh ]; then
+  echo removing PVEDiscordDark.sh
   rm PVEDiscordDark.sh
 fi
 
