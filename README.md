@@ -10,4 +10,4 @@ The afterUpdate.sh will auto update by pulling the PAUmain.sh and PVEDiscordDark
 
 See PVEDiscordDark here: https://github.com/Weilbyte/PVEDiscordDark
 
-Proxmox 6.2-15 to current 7.2 supported.
+This was updated for 7.3-4 to remove the function which calls the popup. This should work for most versions of Proxmox now.
