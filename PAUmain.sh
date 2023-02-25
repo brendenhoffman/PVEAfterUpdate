@@ -1,6 +1,6 @@
 #!/bin/sh
 
-[ -f PVEDiscordDark.sh ] && echo "removing PAUmain.sh" && rm PVEDiscordDark.sh
+[ -f PVEDiscordDark.sh ] && echo "Removing PAUmain.sh" && rm PVEDiscordDark.sh
 
 wget https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh
 /bin/bash PVEDiscordDark.sh install
