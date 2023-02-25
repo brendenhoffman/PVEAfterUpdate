@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 [ -f PAUmain.sh ] && echo "removing PAUmain.sh" && rm PAUmain.sh
 
