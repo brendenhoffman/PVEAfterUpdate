@@ -1,9 +1,6 @@
 #!/bin/bash
 
-if [ -f PAUmain.sh ]; then
-  echo "removing PAUmain.sh"
-  rm PAUmain.sh
-fi
+[ -f PAUmain.sh ] && echo "removing PAUmain.sh" && rm PAUmain.sh
 
 wget https://raw.githubusercontent.com/brendenhoffman/PVEAfterUpdate/master/PAUmain.sh
 
