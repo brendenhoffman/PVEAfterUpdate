@@ -1,12 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
-if [ -f PVEDiscordDark.sh ]; then
-  echo removing PVEDiscordDark.sh
-  rm PVEDiscordDark.sh
-fi
+[ -f PVEDiscordDark.sh ] && echo "removing PAUmain.sh" && rm PVEDiscordDark.sh
 
 wget https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh
-bash PVEDiscordDark.sh install
+sh PVEDiscordDark.sh install
 
 echo "Removing \"No Subscription\" pop-up"
 #As of 7.3-4, the best way I found to remove the popup is to remove the function altogether
