@@ -1,4 +1,4 @@
-#Notice 4/17/23:
+# Notice 4/17/23:
 I don't think I will update this anymore since Proxmox 7.4 added dark mode. There is also a better option to remove the no subscription banner, see here: https://github.com/Jamesits/pve-fake-subscription
 These should persist through updates and running a post install script should no longer be necessary.
 
